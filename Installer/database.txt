@@ -1,0 +1,5 @@
+jdbc:h2:~/horsie
+org.h2.Driver
+horsie_admin
+abc123
+quit

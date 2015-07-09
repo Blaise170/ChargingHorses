@@ -1,0 +1,49 @@
+%%Excelsior JET v10.5 project file
+
+-jpiiproject=C:\Users\Blaise\OneDrive\Programming\csc336\Horse_Billing_Team_1\x86 Setup\Charging Horses.jpn
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-jetcpenablemanualsettings+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-inlinelimit=100
+-inlinetolimit=1000
+-jetcplastpage:=PageCompile
+-jetrt=Classic
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=TabbedPane
+-outputdir=../HorseProject/src
+-outputname=Charging Horses
+-runarguments=java -jar TestJar.jar
+-saprofmode=NONE
+-splash=../Installer/horse_splash.png
+-stacklimit=900000
+
+
+
+
+!classpathentry ../HorseProject/src/TestJar.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry C:/H2/bin/h2-1.3.176.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+
+!module ../Installer/horse.ico
+!module ./Charging Horses.usg
+

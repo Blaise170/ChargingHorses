@@ -1,0 +1,1 @@
+Welcome to the Charging Horses program. Please refer to the manual for any questions that you might have. The attached uninstaller will remove the H2 folder and you will lose any data that you have not saved outside of this folder. Please keep this in mind before you uninstall.

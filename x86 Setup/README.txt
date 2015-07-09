@@ -1,0 +1,1 @@
+This part of the installer compiles our jar file into native x86 bytecode. This should install most of the necessary parts.

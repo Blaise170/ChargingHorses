@@ -1,0 +1,40 @@
+
+-jetcomponent=10.50
+-jetedition=Standard
+-vcode=5
+-sys=W
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:TestJar.jar;h2-1.3.176.jar
+-config=JETProfile:5
+-config=JETProfileName:1.7.0_55
+-config=RuntimeKind:CLASSIC
+-EmbeddedFileSys=C:/Users/Blaise/OneDrive/Programming/csc336/Horse_Billing_Team_1/x86 Setup/Charging Horses_jetpdb/Charging Horses.efs
+-config=MainClass:TabbedPane
+-config=VersionInfo:jet-1050-release (std, en)
+-config=CompatibilityString:Java SE version: 1.7.0_55; JET update level: 0; CPU architecture: x86
+-name=..\HorseProject\src\Charging Horses.exe
+
+-entry=ExeEntryPoint
+
+
+-config=HaveSplash:1
+-config=SplashCloseOnTitle:
+-config=SplashCloseOnAWTWindow:1
+-LinkFileAsRData=LINK_SplashPicture:../Installer/horse_splash.png
+
+
+C:\jet10.5-std-x86\lib\x86\startup-exe-splash.zip
+
+-config=PackagingOptions:dlls=java;net;t2k;nio;awt;fontmanager;zip component_microversions=BC-0
+C:\Users\Blaise\OneDrive\Programming\csc336\Horse_Billing_Team_1\x86 Setup\Charging Horses_jetpdb\obj.zip
+-Config=RTComponent:XKRN10505.dll
+C:\jet10.5-std-x86\lib\x86\startup-rtlink.zip
+C:\jet10.5-std-x86\lib\x86\import32.lib
+..\Installer\horse.ico
+C:\jet10.5-std-x86\lib\x86\app.res
+-StrictLinkToDLL
+
